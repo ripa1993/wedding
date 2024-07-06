@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Dosis", sans-serif;
+    font-family: "LouisGeorgeCafe";
 }
 
 /* Home Page Style */
@@ -268,7 +268,7 @@ body {
 
 /* Common Style */
 .ww-title {
-    font-family: "Great Vibes", cursive;
+    font-family: "JosephSophia";
 }
 
 .ww-section {
@@ -281,4 +281,16 @@ body {
 
 .btn-outline-primary:hover {
     color: #fff;
+}
+
+/* Custom fonts */
+
+@font-face {
+    font-family: JosephSophia;
+    src: url(fonts/josephsophia.otf);
+}
+
+@font-face {
+    font-family: LouisGeorgeCafe;
+    src: url(fonts/Louis\ George\ Cafe.ttf);
 }
