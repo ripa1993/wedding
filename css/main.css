@@ -258,6 +258,12 @@ body {
     top: 0;
 }
 
+.badge-pill-colors {
+    background-color: var(--lavender-light);
+    border: 1px solid var(--lavender-dark)!important;
+}
+
+
 /* Footer Style */
 .ww-footer a.credit {
     color: inherit;
