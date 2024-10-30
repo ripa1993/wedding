@@ -122,6 +122,10 @@ body {
     padding-left: 0;
 }
 
+.ww-wedding-event ul i:before {
+    color: var(--lavender-dark);
+}
+
 /* Couple Friends Style  */
 .ww-couple-friends .carousel {
     padding: 40px 0;
