@@ -126,6 +126,33 @@ body {
     color: var(--lavender-dark);
 }
 
+.ww-wedding-event .ww-wedding-event-button .btn-submit {
+    background-color: rgb(from var(--lavender-dark) r g b);
+    border-color: var(--lavender-light);
+    padding: 0.45rem 1.5rem;
+    border: 0;
+}
+
+.ww-wedding-event .ww-wedding-event-button .btn-submit:hover {
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
+
+.ww-wedding-event .ww-wedding-event-button .btn-submit:focus {
+    background-color: var(--lavender-dark);
+    border-color: var(--lavender-light);
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
+
+.ww-wedding-event .ww-wedding-event-button .btn-submit:active {
+    background-color: var(--lavender-dark);
+    border-color: var(--lavender-light);
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
+
+.ww-wedding-event .ww-wedding-event-button .btn-submit:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
+
 /* Couple Friends Style  */
 .ww-couple-friends .carousel {
     padding: 40px 0;
@@ -185,7 +212,6 @@ body {
     padding: 0.45rem 1.5rem;
     border: 0;
 }
-
 
 .ww-viaggio .ww-viaggio-button .btn-submit:hover {
     box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
