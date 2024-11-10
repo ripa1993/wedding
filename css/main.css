@@ -360,3 +360,32 @@ body {
     font-family: LouisGeorgeCafe;
     src: url(fonts/louisgeorgecafe.ttf);
 }
+
+/* RSVP TOP */
+
+.ww-rsvp-top .ww-rsvp-top-button .btn-submit {
+    background-color: rgb(from var(--lavender-dark) r g b);
+    border-color: var(--lavender-light);
+    padding: 0.45rem 1.5rem;
+    border: 0;
+}
+
+.ww-rsvp-top .ww-rsvp-top-button .btn-submit:hover {
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
+
+.ww-rsvp-top .ww-rsvp-top-button .btn-submit:focus {
+    background-color: var(--lavender-dark);
+    border-color: var(--lavender-light);
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
+
+.ww-rsvp-top .ww-rsvp-top-button .btn-submit:active {
+    background-color: var(--lavender-dark);
+    border-color: var(--lavender-light);
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
+
+.ww-rsvp-top .ww-rsvp-top-button .btn-submit:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgb(from var(--lavender-light) r g b / 25%);
+}
